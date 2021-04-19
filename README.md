@@ -22,7 +22,7 @@ And run it using:
 target/zeebe-quarkus-example-0.26.4-SNAPSHOT-runner
 ```
 
-By default, it will look for a server at localhost:26500.
+By default, it will look for a broker at localhost:26500. You can quickly spin one up by running `docker run -p 26500:26500 --rm -e ZEEBE_BROKER_NETWORK_HOST=0.0.0.0 -u 1000:1000 camunda/zeebe:0.26.1`.
 
 To test the topology, you can call:
 
