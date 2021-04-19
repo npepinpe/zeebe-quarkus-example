@@ -30,10 +30,6 @@ To test the topology, you can call:
 curl -v http://localhost:9090/status
 ```
 
-> Note that this currently breaks due to serialization issues, since the TopologyImpl stuff isn't registered. This
-> example is more about showing native image compilation than anything else however, but a PR to fix that is more than
-> welcome.
-
 ## Reusing
 
 If you want to build a Quarkus application which interacts with Zeebe, the important bits to add are the resources under
