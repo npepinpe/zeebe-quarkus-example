@@ -1,5 +1,7 @@
 # Zeebe Quarkus Example 
 
+⚠️ You're better off using the following maintained extension: https://github.com/quarkiverse/quarkus-zeebe ⚠️
+
 A small toy example of using Zeebe with Quarkus, mostly to show how to compile a native image with a Zeebe client using
 Quarkus.
 
